@@ -241,3 +241,23 @@ main {
     font-weight: 500;
     margin: 0;
 }
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .8rem;
+}
+
+.category > p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+    color: #616161;
+}
