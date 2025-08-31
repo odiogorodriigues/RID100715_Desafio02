@@ -189,12 +189,55 @@ main {
     align-items: center;
     border-radius: 1rem;
     color: #FFFFFF;
-    width: 85%;
+    width: 90%;
     height: 4.5rem;
 }
 
 .subtitle > h2 {
     font-size: 2rem;
     font-weight: 700;
+    margin: 0;
+}
+
+#popular {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.popular-card {
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+.popular-card > img {
+    width: 35%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.popular-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;;
+}
+
+.popular-content > h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.popular-content > p {
+    font-size: 1.2rem;
+    font-weight: 500;
     margin: 0;
 }
